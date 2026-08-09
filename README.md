@@ -66,31 +66,3 @@ The dataset is automatically loaded from Hugging Face using:
 from datasets import load_dataset
 
 dataset = load_dataset("cardiffnlp/tweet_eval", "sentiment")
-
-**## project workflow**
-
-Twitter Dataset
-       ↓
-Data Loading
-       ↓
-Data Exploration
-       ↓
-Text Preprocessing
-       ↓
-Remove URLs and Mentions
-       ↓
-Remove Punctuation
-       ↓
-Stopword Removal
-       ↓
-Lemmatization
-       ↓
-TF-IDF Feature Extraction
-       ↓
-Logistic Regression
-       ↓
-Sentiment Prediction
-       ↓
-Model Evaluation
-       ↓
-Positive / Neutral / Negative
